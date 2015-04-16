@@ -13,6 +13,14 @@
 #this project to help clear up any questions. For more info go to http://www.resultheap.com
 #
 
+#IMPORTS
+
+from HaloObject import HaloObject
+from timer import *
+
+
+
+
 def main():
 
 	pass #For development only.

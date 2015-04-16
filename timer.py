@@ -30,17 +30,19 @@ def minutesToSeconds(timeToConvert):
 
 
 
-def countdown(timeInMinutes):
+def countdown(obj, timeInMinutes):
 
 	t = minutesToSeconds(timeInMinutes)
 
-	print("Begin Game")
+	print("Initialized: ", str(obj))
 	
 	while t:
 		mins, secs = divmod(t, 60)
 		timeformat = '{:02d}:{:02d}'.format(mins, secs)
-		print("Time Remaining: ", timeformat, end='\r')
+		print(str(obj), "=> Time Remaining: ", timeformat, end='\r')
 		time.sleep(1)
 		t -= 1
 
-	print('Game Over!\n\n\n\n\n')
+	print("Deinitialized: ", str(obj))
+
+

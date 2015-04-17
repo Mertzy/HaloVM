@@ -16,7 +16,7 @@ class HaloPlayer(HaloObject):
 
 	def __init__(self, emblem, playerName, playerScore, life, shield, primaryWeapon, secondaryWeapon, grenades, specialWeapon, objName, authorization, status, canRespawn, canDespawn, respawnTime, objSize, destructable):
 
-		self.emblem = emblem
+		self.emblem = emblem					#this contains the player info. Most games have some sort of emblem or logo for each individual player that is customizable.
 		self.playerName = playerName	   		#holds the name of the player. In the case of Halo, this would be the players GamerTag
 		self.objName = objName		       		#holds the HaloObject's name
 		self.life = life				   		#total life of a player

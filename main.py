@@ -13,9 +13,15 @@
 #this project to help clear up any questions. For more info go to http://www.resultheap.com
 #
 
+#It is important to note that this virtual machine can be easily adapted to many differnt
+#types and styles of video games. The choice to mimic Halo was purely a personal preference
+#choice.
+
+
 #IMPORTS
 
 from HaloObject import HaloObject
+from HaloPlayer import HaloPlayer
 from timer import *
 
 
@@ -25,11 +31,4 @@ def main():
 
 	pass #For development only.
 
-	#Needed Methods for main.py:
-	#		game(parameters)
-	#		items(parameters)
-	#		players(parameters)
-	#		map(parameters)
-
-	#Need to create: 
-	#		timer
+	

@@ -39,7 +39,7 @@ class HaloObject:
 
 			self.respawnTime = timeChange #Changes the time until respawn
 
-	def displayRespawnTime(self):
+	def displayRespawnTime(self): #displays the respawn time.  This time is the time that is set for the game, not the current time on the clock.
 
 		return self.respawnTime
 
@@ -49,7 +49,7 @@ class HaloObject:
 
 			self.canRespawn = respawnChange
 
-	def displayRespawnStatus(self):
+	def displayRespawnStatus(self): #Returns True if the itme can respawn at some point. Returns False if not.
 
 		return self.canRespawn
 

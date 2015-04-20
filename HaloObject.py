@@ -13,7 +13,7 @@
 
 #IMPORTS
 
-from timer import *
+from timer import minutesToSeconds, countdown
 
 
 class HaloObject:

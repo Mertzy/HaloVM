@@ -10,6 +10,7 @@
 #IMPORTS
 
 from HaloObject import HaloObject
+from timer import minutesToSeconds, countdown
 
 
 class HaloPlayer(HaloObject):

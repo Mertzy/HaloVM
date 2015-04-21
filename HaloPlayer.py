@@ -33,5 +33,5 @@ class HaloPlayer(HaloObject):
 		self.respawnTime = respawnTime     		#an objects respawn time.  This is a static attribute.
 		self.objSize = objSize             		#sets the objects physical size
 		self.destructable = destructable   		#controls whether or not a HaloObject can be physically destroyed.
-		self.playerScore = playerScore
+		self.playerScore = playerScore			#holds the players score. This depends on gametype as well as video game.
 

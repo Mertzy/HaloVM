@@ -35,3 +35,10 @@ class HaloPlayer(HaloObject):
 		self.destructable = destructable   		#controls whether or not a HaloObject can be physically destroyed.
 		self.playerScore = playerScore			#holds the players score. This depends on gametype as well as video game.
 
+	def setEmblem(self, newEmblem):
+		
+		self.emblem = newEmblem
+		
+	def setPlayerName(self, newPlayerName):
+		
+		self.playerName = newPlayerName
